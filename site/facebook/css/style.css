@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    color: whitesmoke;
+}
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color:black;
+}
+.title_bar{
+    text-align: center;
+    padding: 10px;
+}
+.container div{
+    width:200px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
